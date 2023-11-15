@@ -1,0 +1,21 @@
+<manifest>
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <project path="frameworks/base" name="realme-nashc/android_frameworks_base" revision="lineage-20.0" />
+
+  <!-- Device Trees -->
+  <project path="device/realme/nashc" name="realme-nashc/android_device_realme_nashc" revision="lineage-20" />
+  <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" revision="lineage-20" />
+
+  <!-- Kernel Source -->
+  <project path="kernel/realme/mt6785" name="realme-nashc/android_kernel_realme_mt6785" revision="lineage-20" />
+
+  <!-- Vendor Blobs -->
+  <project path="vendor/realme/nashc" name="realme-nashc/android_vendor_realme_nashc" revision="lineage-20" />
+
+  <!-- Hardware Components -->
+  <project path="hardware/oplus" name="LineageOS/android_hardware_oplus" revision="lineage-20" />
+  <project path="hardware/mediatek" name="nashc-dev/android_hardware_mediatek" revision="lineage-20" />
+
+  <!-- Mediatek WLAN -->
+  <project path="hardware/mediatek/wlan" name="nashc-dev/android_hardware_mediatek_wlan" revision="lineage-20" />
+</manifest>
